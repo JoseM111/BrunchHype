@@ -15,6 +15,7 @@
 		FB346F052451FF7800B56A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB346F032451FF7800B56A62 /* LaunchScreen.storyboard */; };
 		FB346F132452022600B56A62 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB346F122452022600B56A62 /* CoreDataStack.swift */; };
 		FB9CDF5D24526991007C360E /* BrunchSpot+Convience.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CDF5C24526991007C360E /* BrunchSpot+Convience.swift */; };
+		FB9CDF5F2452700B007C360E /* BrunchSpotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CDF5E2452700B007C360E /* BrunchSpotController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FB346F062451FF7800B56A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB346F122452022600B56A62 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		FB9CDF5C24526991007C360E /* BrunchSpot+Convience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrunchSpot+Convience.swift"; sourceTree = "<group>"; };
+		FB9CDF5E2452700B007C360E /* BrunchSpotController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrunchSpotController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		FB346F18245208D600B56A62 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FB9CDF5E2452700B007C360E /* BrunchSpotController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB346F132452022600B56A62 /* CoreDataStack.swift in Sources */,
+				FB9CDF5F2452700B007C360E /* BrunchSpotController.swift in Sources */,
 				FB346EF62451FF7600B56A62 /* AppDelegate.swift in Sources */,
 				FB346EF82451FF7600B56A62 /* SceneDelegate.swift in Sources */,
 				FB346F002451FF7600B56A62 /* BrunchHype.xcdatamodeld in Sources */,
