@@ -1,16 +1,17 @@
 import UIKit
 
 class BrunchSpotTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    /**©------------------------------------------------------------------------------©*/
+    // MARK: _@IBOutlet
+    @IBOutlet weak var brunchSpotNamedLabel: UILabel!
+    @IBOutlet weak var brunchTierSegmentControl: UISegmentedControl!
+    
+    // MARK: _@IBAction
+    @IBAction func tierChanged(_ sender: Any) {
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    /**©------------------------------------------------------------------------------©*/
+    // Function that updates the information for our cell.
+    
+    
 }

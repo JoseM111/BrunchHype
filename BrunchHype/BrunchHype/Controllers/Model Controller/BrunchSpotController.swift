@@ -3,8 +3,8 @@ import CoreData
 
 class BrunchSpotController {
 
-    // MARK: _Shared instance
-    let shared = BrunchSpotController()
+    // MARK: _Shared instance MUST BE STATIC
+    static let shared = BrunchSpotController()
     
     // MARK: _Getting data from the persistence store/loading the data
     // You need to fetch the result to fetch the data from the PC
