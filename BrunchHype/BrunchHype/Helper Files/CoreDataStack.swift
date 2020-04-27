@@ -1,11 +1,3 @@
-//
-//  CoreDataStack.swift
-//  BrunchHype
-//
-//  Created by Karl Pfister on 4/23/20.
-//  Copyright © 2020 Karl Pfister. All rights reserved.
-//
-
 import Foundation
 import CoreData
 
@@ -22,7 +14,7 @@ class CoreDataStack {
     }
     return container
 }()
-
+    // Saves you time from writing this multiple times in your app
     static var context: NSManagedObjectContext { return container.viewContext }
 }
 
