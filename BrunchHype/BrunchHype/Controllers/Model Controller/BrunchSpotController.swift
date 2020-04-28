@@ -57,6 +57,11 @@ class BrunchSpotController {
         
         saveToPersistence()
     }
+    // The update() function updates everything. changeTier just updates a single tier nothing else.
+    func changeTier(for brunchSpot: BrunchSpot, with newTier: String) {
+        brunchSpot.tier = newTier// Will update the tier
+        saveToPersistence()// Then save it to our app
+    }
     
     // DELETE Add method signatures
     func delete(brunchSpotObj brunchSpot: BrunchSpot) {
